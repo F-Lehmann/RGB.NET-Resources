@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Device xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Logitech G502</Name>
+  <Description>Layout of the Logitech G502 Mouse</Description>
+  <Type>Mouse</Type>
+  <Lighting>Device</Lighting>
+  <Vendor>Logitech</Vendor>
+  <Model>G403</Model>
+  <Width>67</Width>
+  <Height>125</Height>
+  <ImageBasePath>Images\Logitech\Mice</ImageBasePath>
+  <DeviceImage>G502.png</DeviceImage>
+  <Leds>
+    <Led Id="Custom1">
+      <Shape> M0.535,0.872 L0.829,0.871 L0.855,0.949 L0.682,0.947 L0.691,0.909 L0.518,0.905z M0.526,0.813 L0.232,0.84 L0.189,0.916 L0.483,0.97 L0.509,0.936 L0.345,0.889 L0.518,0.84z</Shape>
+      <X>18.3</X>
+      <Y>14</Y>
+      <Width>17mm</Width>
+      <Height>81mm</Height>
+    </Led>
+    <Led Id="Custom2">
+      <Shape>M0.446,0.548 L0.516,0.347 L0.547,0.409 L0.477,0.579z M0.492,0.819 L0.57,0.579 L0.593,0.602 L0.523,0.835z M0.454,0.184 L0.485,0.208 L0.43,0.301 L0.4,0.285z</Shape>
+      <X>2.6</X>
+      <Y>54.4</Y>
+    </Led>
+  </Leds>
+</Device>
